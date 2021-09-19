@@ -1,4 +1,4 @@
-# kEffNet
+# Color-aware two-branch DCNN for efficient plant disease classification
 This repository contains code for the paper "Color-aware two-branch DCNN for efficient plant disease classification" by Joao Paulo Schwarz Schuler, Santiago Romani, Mohamed Abdel-Nasser and Hatem Rashwan.
 
 ## Abstract

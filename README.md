@@ -10,6 +10,12 @@ The source code for the experiments described in the paper can be found at the r
 * [Plant Village with L+AB branches model](https://github.com/joaopauloschuler/two-branch-plant-disease/tree/main/raw/two-paths-plant-village).
 * [Cropped-PlantDoc with L+AB branches model](https://github.com/joaopauloschuler/two-branch-plant-disease/tree/main/raw/two-paths-cropped-plant-doc).
 
+## Results
+Raw notebook files with source code for tables [3](https://github.com/joaopauloschuler/two-branch-plant-disease/blob/main/raw/two-paths-plant-village/two_path_inception.ipynb), [4](https://github.com/joaopauloschuler/two-branch-plant-disease/blob/main/raw/two-paths-cropped-plant-doc/Cropped-PlantDoc-Mixed-Layer-Search-Table-4.ipynb) and [5](https://github.com/joaopauloschuler/two-branch-plant-disease/blob/main/raw/two-paths-cropped-plant-doc/Cropped-PlantDoc-LAB-Filter-Search-Table-5.ipynb) are available.
+<p align="center"><img align="center" src="raw/table3.png"></img></p>
+<p align="center"><img align="center" src="raw/table4.png"></img></p>
+<p align="center"><img align="center" src="raw/table5.png"></img></p>
+
 ## Further Reading
 You may be interested in our other paper about [making plant disease classification noise resistant](https://github.com/joaopauloschuler/two-path-noise-lab-plant-disease).
 

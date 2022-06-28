@@ -16,6 +16,32 @@ Raw notebook files with source code for tables [3](https://github.com/joaopaulos
 <p align="center"><img align="center" src="raw/table4.png"></img></p>
 <p align="center"><img align="center" src="raw/table5.png"></img></p>
 
+## Create Your Own L+AB Model
+You'll need to import the [K-CAI Neural API](https://github.com/joaopauloschuler/k-neural-api). Then, you can create L+AB Inception V3 models as per example:
+```
+import os
+
+if not os.path.isdir('k'):
+  !git clone https://github.com/joaopauloschuler/k-neural-api.git k
+else:
+  !cd k && git pull
+
+!cd k && pip install .
+
+l_ratio = 0.5
+
+model = cai.models.compiled_two_path_inception_v3(
+  input_shape=(224,224,3),
+  classes=38, 
+  two_paths_first_block=True,
+  two_paths_second_block=False,
+  l_ratio=l_ratio,
+  ab_ratio=(1-l_ratio),
+  max_mix_idx=5, 
+  model_name='two_path_inception_v3'
+)
+```
+
 ## Further Reading
 You may be interested in our other paper about [making plant disease classification noise resistant](https://github.com/joaopauloschuler/two-path-noise-lab-plant-disease).
 

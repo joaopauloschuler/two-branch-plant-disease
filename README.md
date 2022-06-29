@@ -45,6 +45,9 @@ model = cai.models.compiled_two_path_inception_v3(
 ## Further Reading
 You may be interested in our other paper about [making plant disease classification noise resistant](https://github.com/joaopauloschuler/two-path-noise-lab-plant-disease).
 
+## Give this Project a Star
+This project is an open source project. If you like what you see, please give it a star on github.
+
 ## Citing this Paper
 ```
 @article{Schuler_2022_2branches,

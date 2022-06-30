@@ -54,6 +54,7 @@ This project is an open source project. If you like what you see, please give it
   title={Color-Aware Two-Branch DCNN for Efficient Plant Disease Classification}, 
   volume={28}, 
   url={https://mendel-journal.org/index.php/mendel/article/view/176},
+  DOI={10.13164/mendel.2022.1.055},
   number={1},
   journal={MENDEL},
   author={Schwarz Schuler, Joao Paulo and Romani, Santiago and Abdel-Nasser, Mohamed and Rashwan, Hatem and Puig, Domenec},

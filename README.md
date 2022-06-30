@@ -17,7 +17,7 @@ Raw notebook files with source code for tables [3](https://github.com/joaopaulos
 <p align="center"><img align="center" src="raw/table5.png"></img></p>
 
 ## Create Your Own L+AB Model
-You'll need to import the [K-CAI Neural API](https://github.com/joaopauloschuler/k-neural-api). Then, you can create L+AB Inception V3 models as per example:
+You'll need to import the [K-CAI Neural API](https://github.com/joaopauloschuler/k-neural-api). Then, you can create a 20%L+80%AB Inception V3 model with 6 mixed layers as per example:
 ```
 import os
 
@@ -28,7 +28,7 @@ else:
 
 !cd k && pip install .
 
-l_ratio = 0.5
+l_ratio = 0.2
 
 model = cai.models.compiled_two_path_inception_v3(
   input_shape=(224,224,3),

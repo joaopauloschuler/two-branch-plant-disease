@@ -45,6 +45,11 @@ model = cai.models.compiled_two_path_inception_v3(
 ## Further Reading
 You may be interested in our other paper about [making plant disease classification noise resistant](https://github.com/joaopauloschuler/two-path-noise-lab-plant-disease).
 
+## Running the Code
+Due to library updates, the code used for the paper doesn't run on current tensorflow/keras. As of the writting of this readme file, the current version of tensorflow is 2.8. An updated version of the code was done after the paper publication. This version is now compatible with tensorflow 2.8:
+* [RGB - Baseline](https://github.com/joaopauloschuler/two-branch-plant-disease/blob/main/2.8/code_example_baseline_v2_8.ipynb). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joaopauloschuler/two-branch-plant-disease/blob/main/2.8/code_example_baseline_v2_8.ipynb)
+* [CIE L* a* b* - Light-Chroma Separated Branches](https://github.com/joaopauloschuler/two-branch-plant-disease/blob/main/2.8/code_example_two_paths_v2_8.ipynb). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joaopauloschuler/two-branch-plant-disease/blob/main/2.8/code_example_two_paths_v2_8.ipynb)
+
 ## Give this Project a Star
 This project is an open source project. If you like what you see, please give it a star on github.
 

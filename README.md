@@ -43,7 +43,7 @@ model = cai.models.compiled_two_path_inception_v3(
 ```
 
 ## Further Reading
-You may be interested in our other paper about [making plant disease classification noise resistant](https://github.com/joaopauloschuler/two-path-noise-lab-plant-disease).
+You may be interested in our other paper about [making plant disease classification noise resistant](https://github.com/joaopauloschuler/two-path-noise-lab-plant-disease). You may also be interested at optimizing deeper layers of a DCNN: [V1](https://github.com/joaopauloschuler/kEffNetV1) and [V2](https://github.com/joaopauloschuler/kEffNetV2).
 
 ## Running the Code
 Due to library updates, the code used for the paper doesn't run on current tensorflow/keras. As of the writting of this readme file, the current version of tensorflow is 2.8. An updated version of the code was done after the paper publication. This version is now compatible with tensorflow 2.8:
